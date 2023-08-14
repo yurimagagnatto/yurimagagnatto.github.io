@@ -58,8 +58,11 @@ plugins:
 minima:
   date_format: "%b %-d, %Y"
   skin: dark
+  social_links:
+    - { platform: github,  user_url: "https://github.com/yurimagagnatto" }
+    - { platform: instagram, user_url: "https://twitter.com/jekyllrb" }
 
-permalink: /:year/:month/
+permalink: /:categories/:title
 pagination:
   enabled: true
   per_page: 10
