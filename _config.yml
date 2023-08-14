@@ -31,9 +31,9 @@ github_username:  jekyll
 
 # Build settings
 theme: minima
-  date_format: "%b %-d, %Y"
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -54,3 +54,12 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+minima:
+  date_format: "%b %-d, %Y"
+  skin: dark
+
+permalink: /:year/:month/
+pagination:
+  enabled: true
+  per_page: 10
